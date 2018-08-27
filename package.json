@@ -1,22 +1,16 @@
 {
-  "name": "patcurryworks",
-  "version": "1.0.0",
-  "description": "Time to get simple with a personal site",
-  "main": "index.js",
+  "name": "pcw",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/patcurry/pcw-js.git"
-  },
-  "author": "Pat Curry",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/patcurry/pcw-js/issues"
-  },
-  "homepage": "https://github.com/patcurry/pcw-js#readme",
   "dependencies": {
-    "express": "^4.16.3"
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "ejs": "~2.5.7",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "morgan": "~1.9.0"
   }
 }
