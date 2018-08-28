@@ -7,7 +7,7 @@
     <meta name='viewport' content='width=device-width,initial-scale=1'>
     <title>Pat Curry Works</title>
     <meta name='author' content='Pat Curry'>
-    <meta name='description' content="Simon">
+    <meta name='description' content='Simon'>
     <meta name='keywords' content='HTML,CSS,JavaScript'>
     <link rel='stylesheet' type='text/css' href='../stylesheets/simon.css'>
 </head>
@@ -15,14 +15,18 @@
 <body>
 
     <H1>Play Simon!</H1>
-    <div id="circle-container">
-        <div class="quarter top-left"></div>
-        <div class="quarter top-right"></div>
-        <div class="quarter bottom-left"></div>
-        <div class="quarter bottom-right"></div>
-        <div id="inner-circle">SIMON</div>
+    <div id='circle-container'>
+        <div class='quarter top-left' id='green-button'></div>
+        <div class='quarter top-right' id='red-button'></div>
+        <div class='quarter bottom-left' id='yellow-button'></div>
+        <div class='quarter bottom-right' id='blue-button'></div>
+        <div id='inner-circle'>SIMON</div>
+    </div>
+    <div id='start'>
+        Start
     </div>
 
+    <script src='../javascripts/simon.js'></script>
 </body>
 
 </html>

@@ -38,21 +38,28 @@ body {
     float: right
 }
 
-.top-left:hover {
+/* The color changes will have to be taken care of by
+ * javascript functions that change the class of the
+ * divs.
+ */
+
+
+.top-left.light {
     background: #66ff66;
 }
 
-.top-right:hover {
+.top-right.light {
     background: #ff0000;
 }
 
-.bottom-left:hover {
+.bottom-left.light {
     background: #ffff00;
 }
 
-.bottom-right:hover {
+.bottom-right.light {
     background: #0099ff;
 }
+*/
 
 #outer-circle {
     background: #385a94;
