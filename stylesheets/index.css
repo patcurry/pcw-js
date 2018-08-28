@@ -32,7 +32,7 @@ body {
 .my-name {
     margin-bottom: 1em;
     font-size: 2.5em;
-    font-style: bold;
+    font-weight: bold;
     display: flex;
     justify-content: center;
 }
@@ -55,4 +55,42 @@ body {
     color: black;
     display: flex;
     align-items: center;
+}
+
+.cv-header {
+    font-size: 1.5em;
+}
+
+.cv-section {
+    margin-bottom: 1em;
+}
+
+.section-header {
+    margin-bottom: .5em;
+    font-size: 1.25em;
+}
+
+.section-item {
+    margin-bottom: 1em;
+    display: grid;
+    grid-gap: 1em;
+    grid-template-columns: 400px 400px; 
+}
+
+.section-item-date {
+    font-weight: bold;
+    border: solid .5px;
+}
+
+.section-item-name {
+    font-weight: bold;
+    border: solid .5px;
+}
+
+.section-item-location {
+    border: solid .5px;
+}
+
+.section-item-description {
+    border: solid .5px;
 }
