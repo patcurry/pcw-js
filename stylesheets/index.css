@@ -62,20 +62,21 @@ body {
 
 /* should this section be simpler? */
 .cv {
-    margin: 20px 50px 20px 50px;
+    margin-top: 50px;
+}
+
+.cv-header {
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 
 .cv-personal-info {
     margin-top: 1rem;
     margin-bottom: 1rem;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-}
-
-.cv-header {
-    font-size: 1.5rem;
 }
 
 .cv-section {
@@ -83,6 +84,7 @@ body {
 }
 
 .section-header {
+    margin-top: 2rem;
     margin-bottom: .5rem;
     font-size: 1.25rem;
     font-weight: bold;
