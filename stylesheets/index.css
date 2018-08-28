@@ -17,7 +17,7 @@ body {
 .header a {
     text-decoration: none;
     display: block;
-    padding: 1em;
+    padding: 1rem;
     color: #f9f9ff;
 }
 
@@ -30,8 +30,8 @@ body {
 }
 
 .my-name {
-    margin-bottom: 1em;
-    font-size: 2.5em;
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
     font-weight: bold;
     display: flex;
     justify-content: center;
@@ -46,7 +46,7 @@ body {
 .contact li {
     margin-left: 10px;
     margin-right: 10px;
-    font-size: 1.5em;
+    font-size: 1.5rem;
     display: block;
 }
 
@@ -57,36 +57,41 @@ body {
     align-items: center;
 }
 
+/* should this section be simpler? */
+.cv {
+    margin: 20px 50px 20px 50px;
+}
+
 .cv-header {
-    font-size: 1.5em;
+    font-size: 1.5rem;
 }
 
 .cv-section {
-    margin-bottom: 1em;
+    margin-bottom: 1rem;
 }
 
 .section-header {
-    margin-bottom: .5em;
-    font-size: 1.25em;
+    margin-bottom: .5rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+    border-bottom: solid .5px;
 }
 
 .section-item {
-    margin-bottom: 1em;
+    margin-bottom: 1rem;
     display: grid;
-    grid-gap: 1em;
-    grid-template-columns: 400px 400px; 
+    grid-gap: 1rem;
+    grid-template-columns: 300px 1fr; 
 }
 
 .section-item-date {
     font-weight: bold;
-    border: solid .5px;
 }
 
 .section-item-name {
     font-weight: bold;
-    border: solid .5px;
 }
-
+/*
 .section-item-location {
     border: solid .5px;
 }
@@ -94,3 +99,4 @@ body {
 .section-item-description {
     border: solid .5px;
 }
+*/
