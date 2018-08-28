@@ -34,12 +34,14 @@ body {
     font-size: 2.5rem;
     font-weight: bold;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
 .contact {
     display: flex;
     justify-content: center;
+    flex-wrap: flex;
     align-items: center;
 }
 
@@ -54,12 +56,22 @@ body {
     text-decoration: none;
     color: black;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
 }
 
 /* should this section be simpler? */
 .cv {
     margin: 20px 50px 20px 50px;
+}
+
+.cv-personal-info {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .cv-header {
