@@ -26,5 +26,33 @@ body {
 }
 
 .main {
-    margin:10px;
+    margin:20px;
+}
+
+.my-name {
+    margin-bottom: 1em;
+    font-size: 2.5em;
+    font-style: bold;
+    display: flex;
+    justify-content: center;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact li {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1.5em;
+    display: block;
+}
+
+.contact li a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
 }
