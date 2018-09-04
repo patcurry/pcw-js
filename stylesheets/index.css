@@ -5,29 +5,51 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.header {
+.contact-bar {
     background: #00cc7d;
     list-style: none;
     margin: 0;
     display: flex;
     flex-flow: row wrap;
-    justify-content: flex-end;
+    justify-content: space-around;
 }
 
-.header a {
-    text-decoration: none;
-    display: block;
+/* some funky stuff to get the contact bar text centered */
+.contact-bar li {
+    /*
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    */
     padding: 1rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 1.2rem;
+    color: #f9f9f9;
+}
+
+.contact-bar a {
+    text-decoration: none;
+    /*
+    display: block;
+    vertical-align: middle;
+    */
+    margin-top: auto;
+    margin-bottom: auto;
     color: #f9f9ff;
 }
 
-.header a:hover {
+.contact-bar li:hover {
     background: #223377;
 }
 
+
 .main {
-    margin:20px;
+    margin-top:20px;
+    margin-bottom:20px;
 }
+
 
 .my-name {
     margin-bottom: 1rem;
@@ -59,6 +81,23 @@ body {
     flex-wrap: wrap;
     align-items: center;
 }
+
+.personal-statement {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+@media only screen and (max-width: 950px) {
+    .personal-statement {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+}
+
 
 /* should this section be simpler? */
 .cv {
